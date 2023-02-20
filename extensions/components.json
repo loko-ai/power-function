@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Power Function",
+    "description": "",
+    "group": "TTTT",
+    "icon": "RiCheckboxBlankCircleFill",
+    "click": null,
+    "events": null,
+    "configured": true,
+    "inputs": [
+      {
+        "id": "input",
+        "label": "input",
+        "service": "",
+        "to": "output"
+      }
+    ],
+    "outputs": [
+      {
+        "id": "output",
+        "label": "output"
+      }
+    ],
+    "options": {
+      "values": {},
+      "args": [
+        {
+          "name": "code",
+          "type": "code",
+          "label": "code",
+          "helper": "",
+          "group": "",
+          "value": null,
+          "description": "",
+          "validation": null
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,5 @@
+Flask
+loko-extensions
+loko-client
+pandas
+frozendict
