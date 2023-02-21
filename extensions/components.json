@@ -1,40 +1,40 @@
 [
-  {
-    "name": "Power Function",
-    "description": "",
-    "group": "TTTT",
-    "icon": "RiCheckboxBlankCircleFill",
-    "click": null,
-    "events": null,
-    "configured": true,
-    "inputs": [
-      {
-        "id": "input",
-        "label": "input",
-        "service": "",
-        "to": "output"
-      }
-    ],
-    "outputs": [
-      {
-        "id": "output",
-        "label": "output"
-      }
-    ],
-    "options": {
-      "values": {},
-      "args": [
-        {
-          "name": "code",
-          "type": "code",
-          "label": "code",
-          "helper": "",
-          "group": "",
-          "value": null,
-          "description": "",
-          "validation": null
-        }
-      ]
+ {
+  "name": "Power Function",
+  "description": "\nA component that allows the execution of python code. Additional libraries can be configured in the 'imports.json' file where you can specify the name associated to the import.\nThe library has to be specified in the requirements.txt file too.\n",
+  "group": "Custom",
+  "icon": "RiCheckboxBlankCircleFill",
+  "click": null,
+  "events": null,
+  "configured": true,
+  "inputs": [
+   {
+    "id": "input",
+    "label": "input",
+    "service": "",
+    "to": "output"
+   }
+  ],
+  "outputs": [
+   {
+    "id": "output",
+    "label": "output"
+   }
+  ],
+  "options": {
+   "values": {},
+   "args": [
+    {
+     "name": "code",
+     "type": "code",
+     "label": "code",
+     "helper": "",
+     "group": "",
+     "value": null,
+     "description": "",
+     "validation": null
     }
+   ]
   }
+ }
 ]

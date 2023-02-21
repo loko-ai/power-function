@@ -3,3 +3,4 @@ loko-extensions
 loko-client
 pandas
 frozendict
+loguru
